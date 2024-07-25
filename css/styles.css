@@ -216,6 +216,8 @@ body {
 
 .portofolio-section {
   background-color: var(--cornflower-color);
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -226,6 +228,18 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.fourth-section-list{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.first-list-item{
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image-description{
@@ -247,7 +261,6 @@ body {
 .footer {
   background-color: var(--primary-navy-blue);
   padding: 100px 0;
-  display: inline-block
   margin-bottom: 16px;
 }
 
