@@ -47,6 +47,7 @@ body {
   line-height: 1.17;
   margin-right: 76px;
   padding: 24px 0; 
+  display: flex;
 }
 
 .address-list{
@@ -54,9 +55,6 @@ body {
   gap: 40px;
 }
 
-.list{
-
-}
 
 .studio {
   color: #2e2f42;
