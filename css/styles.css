@@ -54,6 +54,10 @@ body {
   gap: 40px;
 }
 
+.list{
+
+}
+
 .studio {
   color: #2e2f42;
 }
@@ -130,7 +134,7 @@ body {
 
 .first-section {
   background-color: var(--primary-navy-blue);
-}
+  }
 
 .section-title {
   font-size: 56px;
@@ -138,6 +142,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .button {
@@ -148,6 +153,11 @@ body {
   color: var(--primary-white);
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block; 
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .feature-title {
@@ -236,6 +246,7 @@ body {
 
 .footer {
   background-color: var(--primary-navy-blue);
+  padding: 100px 0;
 }
 
 .footer-text {
