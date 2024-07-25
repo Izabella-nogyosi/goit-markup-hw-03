@@ -293,7 +293,7 @@ body {
   text-align: center;
 }
 
-.portofolio-section {
+.portfolio-section {
   background-color: var(--cornflower-color);
   padding-top: 120px;
   padding-bottom: 120px;
@@ -349,8 +349,7 @@ body {
   background-color: var(--primary-navy-blue);
   padding: 100px 0;
   margin-bottom: 16px;
-  display: inline-block
-  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
