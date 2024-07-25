@@ -247,6 +247,8 @@ body {
 .footer {
   background-color: var(--primary-navy-blue);
   padding: 100px 0;
+  display: inline-block
+  margin-bottom: 16px;
 }
 
 .footer-text {
