@@ -80,6 +80,7 @@ body {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .studio {
@@ -112,7 +113,7 @@ body {
   width: 1158px;
 }
  
-.header-list-item,
+.header-list-item ,
 .header-item{
   padding: 24px 0;
 }
