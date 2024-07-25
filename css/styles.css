@@ -202,7 +202,7 @@ body {
   border-radius: 4px;
 }
 
-.visually-hiden{
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -222,7 +222,18 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--primary-navy-blue);
+  margin-bottom: 8px;
 }
+
+.feauture-section-list{
+  display: flex; 
+  gap: 24px;
+}
+
+.first-features-list{
+  flex-basis: calc((100% - 3 * 24px))
+}
+
 
 .feature-paragraph {
   font-size: 16px;
