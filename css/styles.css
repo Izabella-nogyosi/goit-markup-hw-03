@@ -324,7 +324,7 @@ body {
   row-gap: 48px;
 }
 
-.first-list-item {
+.portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
 
