@@ -95,6 +95,7 @@ body {
   gap: 40px;
 }
 
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -143,6 +144,8 @@ body {
 
 .header-list {
   color: #2e2f42;
+  display: flex;
+  gap: 40px;
 }
 
 .contact-ditails {
