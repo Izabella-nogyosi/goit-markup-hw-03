@@ -230,8 +230,9 @@ body {
   gap: 24px;
 }
 
-.first-features-list{
+.features-list{
   flex-basis: calc((100% - 3 * 24px))
+  
 }
 
 
