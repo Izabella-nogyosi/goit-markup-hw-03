@@ -68,7 +68,10 @@ body {
   padding: 24px 0;
 }
 
-
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 
 .studio {
   color: #2e2f42;
