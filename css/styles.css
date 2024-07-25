@@ -251,8 +251,8 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team-container{
-  padding: 32px 0; 
+.our-team-container {
+  padding: 32px 0;
 }
 
 .our-team-section {
@@ -311,12 +311,11 @@ body {
   margin-bottom: 72px;
 }
 
-.portfolio-container{
+.portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px; 
-  
+  margin-bottom: 8px;
 }
 
 .fourth-section-list {
@@ -349,6 +348,8 @@ body {
 .footer {
   background-color: var(--primary-navy-blue);
   padding: 100px 0;
+  margin-bottom: 16px;
+  display: inline-block
   margin-bottom: 16px;
 }
 
