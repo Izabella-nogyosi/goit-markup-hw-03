@@ -1,5 +1,5 @@
 /* Style reset */
-ul{
+ul {
   padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -96,7 +96,6 @@ body {
   gap: 40px;
 }
 
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -112,12 +111,11 @@ body {
 .container {
   width: 1158px;
 }
- 
-.header-list-item ,
-.header-item{
+
+.header-list-item,
+.header-item {
   padding: 24px 0;
 }
-
 
 .header-item {
   font-size: 16px;
@@ -167,9 +165,7 @@ body {
   color: var(--salte-color);
 }
 
-
-
-.second-section{
+.second-section {
   padding: 120px 0;
 }
 
@@ -186,7 +182,6 @@ body {
   padding: 188px 0;
 }
 
-
 .button {
   font-size: 16px;
   font-weight: 500;
@@ -202,7 +197,7 @@ body {
   border-radius: 4px;
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -215,7 +210,6 @@ body {
   overflow: hidden;
 }
 
-
 .feature-title {
   font-size: 20px;
   font-weight: 500;
@@ -225,16 +219,14 @@ body {
   margin-bottom: 8px;
 }
 
-.feauture-section-list{
-  display: flex; 
+.feauture-section-list {
+  display: flex;
   gap: 24px;
 }
 
-.features-list{
-  flex-basis: calc((100% - 3 * 24px))
-  
+.features-list {
+  flex-basis: calc((100% - 3 * 24px));
 }
-
 
 .feature-paragraph {
   font-size: 16px;
@@ -249,8 +241,23 @@ body {
   background-color: #ffffff;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.image-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-container{
+  padding: 32px 0; 
+}
+
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-title {
@@ -262,6 +269,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-name {
@@ -271,6 +279,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-navy-blue);
   background-color: var(--primary-white);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .work-definition {
@@ -280,6 +290,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: var(--primary-white);
+  text-align: center;
 }
 
 .portofolio-section {
