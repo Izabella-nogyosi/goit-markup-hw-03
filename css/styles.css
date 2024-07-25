@@ -54,12 +54,20 @@ body {
   color: #f4f4fd;
 }
 
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container{
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex; 
 }
 
+.container{
+ width: 1158px;
+}
 
 .header-item {
   font-size: 16px;
